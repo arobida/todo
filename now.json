@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"name": "Todo",
-	"alias": "todo.now.sh",
+	"alias": "just-todo-it.now.sh",
 	"builds": [{ "src": "package.json", "use": "@now/static-build" }],
 	"routes": [
 		{ "src": "^/static/(.*)", "dest": "/static/$1" },

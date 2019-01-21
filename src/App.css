@@ -1,63 +1,66 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
-.container{
-	background:#eeeeee;
-	color:#333;
-	width:50vw;
-	height:80vh;
-	display:flex;
-	justify-content:center;
+.container {
+	background: #eeeeee;
+	color: #333;
+	width: 70vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
 }
-.inputBox{
-	display:flex;
-	flex-direction:column;
+.inputBox {
+	display: flex;
+	flex-direction: column;
 }
-.label:hover{
-	cursor:copy;
+.label:hover {
+	cursor: copy;
 }
-#task{
-	border-bottom-color:orangered;
-	border-top:0;
-	border-left:0;
-	width:80%;
-	margin:0 auto;
+#task {
+	border-bottom-color: orangered;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 80%;
+	margin: 0 auto;
 }
-.btns{
-	margin-bottom:15px;
+.btns {
+	margin-bottom: 15px;
 }
-.done{
-	background:green;
-	color:white;
-	display:inline-block;
-	text-align:center;
-	width:20px;
-	height:20px;
-	margin-left:8px;
-	border-radius:50%;
-	transition-duration: .6s;
+.done {
+	background: green;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	margin-left: 8px;
+	border-radius: 50%;
+	transition-duration: 0.6s;
 }
-.done:hover{
-	border-radius:50px;
+.done:hover {
+	border-radius: 50px;
 	-webkit-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg);
 }
-.del{
-	background:red;
-	color:white;
-	display:inline-block;
-	text-align:center;
-	width:20px;
-	height:20px;
-	margin-left:8px;
-	border-radius:50%;
-	transition-duration: .6s;
+.del {
+	background: red;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	margin-left: 8px;
+	border-radius: 50%;
+	transition-duration: 0.6s;
 }
-.del:hover{
-	border-radius:50px;
+.del:hover {
+	border-radius: 50px;
 	-webkit-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg);
 }
-.todos{
-	margin-top:15px;
-	transition-duration:.7s;
-	transform:slide(to right);
+.todos {
+	margin-top: 15px;
+	transition-duration: 0.7s;
+	transform: slide(to right);
 }
