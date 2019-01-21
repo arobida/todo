@@ -1,32 +1,63 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.container{
+	background:#eeeeee;
+	color:#333;
+	width:50vw;
+	height:80vh;
+	display:flex;
+	justify-content:center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputBox{
+	display:flex;
+	flex-direction:column;
 }
-
-.App-link {
-  color: #61dafb;
+.label:hover{
+	cursor:copy;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#task{
+	border-bottom-color:orangered;
+	border-top:0;
+	border-left:0;
+	width:80%;
+	margin:0 auto;
+}
+.btns{
+	margin-bottom:15px;
+}
+.done{
+	background:green;
+	color:white;
+	display:inline-block;
+	text-align:center;
+	width:20px;
+	height:20px;
+	margin-left:8px;
+	border-radius:50%;
+	transition-duration: .6s;
+}
+.done:hover{
+	border-radius:50px;
+	-webkit-transform: scale(1.5) rotate(360deg);
+}
+.del{
+	background:red;
+	color:white;
+	display:inline-block;
+	text-align:center;
+	width:20px;
+	height:20px;
+	margin-left:8px;
+	border-radius:50%;
+	transition-duration: .6s;
+}
+.del:hover{
+	border-radius:50px;
+	-webkit-transform: scale(1.5) rotate(360deg);
+}
+.todos{
+	margin-top:15px;
+	transition-duration:.7s;
+	transform:slide(to right);
 }
